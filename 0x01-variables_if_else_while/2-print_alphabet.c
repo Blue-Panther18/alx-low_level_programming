@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - Entry point
+ * main - print the lowercase of all alphabets
  *
  * Return: Always 0 (Success)
  */
@@ -11,6 +11,7 @@ int main(void)
 	{
 		putchar(tolower(x));
 	}
+	putchar('\n');
 	return (0);
 }
 
