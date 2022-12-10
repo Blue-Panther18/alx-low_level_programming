@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	int x, y = 'A';
+	int x, y;
 
+	x = y = 'A';
 	while (x <= 'Z')
 	{
 		putchar(tolower(x));
