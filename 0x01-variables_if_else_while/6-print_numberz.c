@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <ctype.h>
+#include <string.h>
 /**
  * main - print all base 10 single digit using putchar function
  *
@@ -6,9 +8,9 @@
  */
 int main(void)
 {
-	char a = '0';
+	int a = 48;
 
-	for (a = '0'; a <= '9'; a++)
+	for (a = 48; a <= 57; a++)
 		putchar(a);
 	putchar('\n');
 	return (0);
