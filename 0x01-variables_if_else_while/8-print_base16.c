@@ -13,9 +13,9 @@ int main(void)
 		putchar(a);
 		a++;
 	};
-	char b = 'a';
+	int b = 97;
 
-	while (b <= 'f')
+	while (b <= 102)
 	{
 		putchar(b);
 		b++;
