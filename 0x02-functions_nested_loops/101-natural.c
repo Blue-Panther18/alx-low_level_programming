@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
  * main - display the sum of multiple of 3 or 5 between 0 - 1024
+ * Return: 0
  */
-void main(void)
+int main(void)
 {
 	int a, b, sum;
 
@@ -16,5 +17,6 @@ void main(void)
 		};
 	}
 	printf("%d\n", sum);
+	return (0);
 }
 
