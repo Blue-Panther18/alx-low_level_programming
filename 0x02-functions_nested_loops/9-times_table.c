@@ -16,19 +16,22 @@ void times_table(void)
 			m = a * b;
 			f = m / 10;
 			l = m % 10;
-			if (m == 0)
+			if (b == 0)
 			{
 				_putchar('0');
 			} else if (m < 10)
 			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
 				_putchar(l + '0');
 			} else
 			{
+				_putchar(',');
+				_putchar(' ');
 				_putchar(f + '0');
 				_putchar(l + '0');
 			};
-			_putchar(',');
-			_putchar(' ');
 		}
 		_putchar('\n');
 	}
