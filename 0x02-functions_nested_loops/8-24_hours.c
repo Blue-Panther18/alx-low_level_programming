@@ -7,11 +7,14 @@
  */
 void jack_bauer(void)
 {
-	int i, j, k, l;
+	int i, j, k, l, j_max;
 
+	j_max = '9';
 	for (i = '0'; i < '3'; i++)
 	{
-		for (j = '0'; j < '4'; j++)
+		if (i == '2')
+			j_max = '3';
+		for (j = '0'; j <= j_max; j++)
 		{
 			for (k = '0'; k < '6'; k++)
 			{
@@ -26,6 +29,7 @@ void jack_bauer(void)
 				}
 			}
 		}
+
 	}
 }
 
