@@ -7,8 +7,8 @@ int main(void)
 {
 	long a, b, c, sum;
 
-	a = 1;
-	b = 2;
+	a = 0;
+	b = 1;
 	c = 0;
 	sum = 0;
 	while (c <= 4000000)
