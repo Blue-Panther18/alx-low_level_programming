@@ -5,7 +5,7 @@
  *
  * @dest: Array parameter
  *
- * @scr: string parameter
+ * @src: string parameter
  *
  * Return: Array of strings.
  */
