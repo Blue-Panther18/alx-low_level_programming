@@ -34,7 +34,7 @@ char *rot13(char *str)
 	i = 0;
 	while (str[i])
 	{
-		for (j = 0; j < 52; i++)
+		for (j = 0; j < 52; j++)
 		{
 			if (str[i] == alphabet[j])
 			{
